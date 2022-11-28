@@ -26,7 +26,7 @@ const data = [
         ]
     },
     {
-        id: 1,
+        id: 2,
         title: "VUE films die ik ga zien",
         activities: [
             {
@@ -47,7 +47,7 @@ const data = [
         ]
     },
     {
-        id: 1,
+        id: 3,
         title: "Games Backlog",
         activities: [
             {
