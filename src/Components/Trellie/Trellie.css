@@ -5,7 +5,7 @@
     border-radius:0.3rem;
     height: max-content;
     flex-shrink: 0;
-    max-height: 80rem;
+    max-height: 80vh;
     overflow-y: scroll;
 }
 
