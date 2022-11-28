@@ -9,9 +9,14 @@ html{
 }
 
 body{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    background: #4649FF;
+    font-family: 'Open Sans', sans-serif;
+    padding:2rem;
 }
 
 #root{
+    display:flex; 
+    gap:4rem;
 
 }

@@ -1,0 +1,24 @@
+.input{
+    display:flex;
+    flex-direction: column;
+    gap:0.2rem;
+}
+
+.input__label{
+    font-size:100%;
+    font-weight: 700;
+}
+.input__input{
+    width:100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    background: #ECECEC;
+    border: none;
+    box-shadow: 0 0.3rem 0 0 #c6c6c6;
+    border-radius:0.3rem;
+    padding: 0.5rem;
+}
+
+.input__input:focus{
+    outline: 0.2rem solid #4649FF;
+}
