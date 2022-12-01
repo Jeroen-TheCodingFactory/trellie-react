@@ -2,14 +2,11 @@ import Activity from "../Activity/Activity";
 import Input from "../Input/Input";
 import "./Trellie.css";
 
-const Trellie = ({ id, onActivityAdded, trellie }) => {
+const Trellie = ({ id, trellie }) => {
     let listItemsToBeRendered = trellie.activities.map(object => {
         return (<Activity key={object.id} activity={object} />);
     });
 
-    const onActivityAddedTrellie = (inputValue) => {
-        onActivityAdded(inputValue, id);
-    }
 
     return (
         <section className="trellie">
@@ -23,7 +20,7 @@ const Trellie = ({ id, onActivityAdded, trellie }) => {
             <ul className="trellie__activities">
                 {listItemsToBeRendered}
             </ul>
-            <Input onActivityAdded={onActivityAddedTrellie}/>
+            <Input id={id}/>
         </section>
     );
 }
