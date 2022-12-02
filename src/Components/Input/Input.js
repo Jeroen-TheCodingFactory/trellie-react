@@ -24,6 +24,7 @@ class Input extends React.Component{
         }
         oldState[this.props.id - 1].activities.push(newState);
         this.props.setTrelliesFromRedux(oldState);
+        this.setState({inputValue: ""});
     }
 
     render(){
